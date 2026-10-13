@@ -1,0 +1,15 @@
+{
+  "name": "student/ai-study-assistant-v2",
+  "description": "AI Study Assistant v2 - Modern AI Study Workspace for Students",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "smalot/pdfparser": "^2.12",
+    "vlucas/phpdotenv": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
